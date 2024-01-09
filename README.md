@@ -1,2 +1,2 @@
 # PyWordle
-A basic version of the game Wordle made in python.
+A basic version of the game Wordle made in Python.
