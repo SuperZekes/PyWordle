@@ -1,5 +1,4 @@
 import random
-
 def load_dictionary(file_path):
     with open(file_path) as f:
         words = [line.strip() for line in f]
@@ -18,12 +17,13 @@ def evaluate_guess(guess, word):
             if guess[i] in word:
                 str += "\033[33m" + guess[i]
             else:
-                str += "\033[0m" + guess[i]
+                str += "\033[30m" + guess[i]
 
     return str + "\033[0m"
 
 def wordle(guesses, answers):
     print("Welcome to Wordle! You Get 6 chances to guess a 5-letter word.")
+    print("Green means the letter is correct and in the right spot. Yellow means the letter is in the word but in the wrong spot. And gray means the letter isn't in the word.")
     secret_word = random.choice(answers)
 
     attempts = 1
