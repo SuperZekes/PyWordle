@@ -1,1 +1,1 @@
-print(Welcome to Wordle!)
+print("Welcome to Worldle!")
