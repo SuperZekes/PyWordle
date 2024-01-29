@@ -1,4 +1,4 @@
-![PyWordle_Logo](PyWorldle.png)
+
 
 
 # PyWordle
