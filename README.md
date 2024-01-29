@@ -1,4 +1,4 @@
-
+![PyWordle_Logo](https://raw.githubusercontent.com/SuperZekes/PyWordle/main/PyWordle.png)
 
 
 # PyWordle
