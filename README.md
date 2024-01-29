@@ -1,6 +1,3 @@
-![PyWordle_Icon](PyWordle.png)
-
-
 # PyWordle
 A basic version of the game Wordle made in Python.
 
